@@ -1,4 +1,53 @@
-*{
-    margin: 0px;
-    padding: 0px;
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner-container {
+    background: rgba(229, 84, 115, 0.10);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 80px;
+    width: 100%;
+    height: 90vh;
+}
+
+.banner-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+
+.banner-content h1 {
+    color: #272727;
+    font-size: 70px;
+    font-weight: 800;
+}
+
+.banner-image {
+    width: 420px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+
+.banner-image img {
+    width: 100%;
+}
+
+.btn-shop button {
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background: #E55473;
+}
+.banner-content p{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
 }
