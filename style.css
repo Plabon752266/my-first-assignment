@@ -89,7 +89,43 @@
     font-size: 40px;
     font-weight: 800;
 }
+
 .off-color {
     color: #E55473;
     ;
 }
+
+/* insta banner style here */
+.insta-container {
+    width: 1920px;
+    height: 4867px;
+    color: white;
+}
+
+.insta-element {
+    text-align: center;
+    padding-top: 40px;
+    margin-bottom: 35px;
+}
+
+.photo-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.insta-element h2 {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 5px;
+    font-family: Lato;
+}
+.insta-element p{
+    color: rgba(39, 39, 39, 0.60);
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+font-family: Lato;
+}
+
