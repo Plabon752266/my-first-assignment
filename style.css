@@ -1,10 +1,53 @@
-/* main banner section start */
-
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+                /* nav (optional) section start here */
+  nav {
+    background-color: #ea8d8d96;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    font-family: Lato;
+  }
+  .nav-logo img {
+    width: 280px;
+    height: auto;
+    margin-top: 10px;
+  }
+  .nav h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-left: 10px;
+    padding: 5px;
+  }
+  .nav-dialog{
+    color: #E55473;
+  }
+  .color-word{
+    color: dimgray;
+  }
+  .nav-links {
+    list-style: none;
+    display: flex;
+  }
+  .nav-links li {
+    margin-right: 35px;
+  }
+  .nav-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 18px;
+  }
+  .nav-links a:hover {
+    color: #292828;
+  }
+                /* main banner section start */
 
 .banner-container {
     background: rgba(229, 84, 115, 0.10);
@@ -34,12 +77,9 @@
     flex-direction: column;
     justify-content: flex-end;
 }
-
-
 .banner-image img {
     width: 100%;
 }
-
 .btn-shop button {
     padding: 15px 20px;
     border-radius: 8px;
@@ -47,15 +87,13 @@
     color: white;
     background: #E55473;
 }
-
 .banner-content p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
-
-/* hot deal banner start */
+                        /* hot deal banner start */
 .Hot-deal-container {
     background: rgba(229, 84, 115, 0.05);
     display: flex;
@@ -63,7 +101,6 @@
     gap: 30px;
     padding: 35px;
 }
-
 .Hot-deal-content {
     display: flex;
     flex-direction: column;
@@ -73,7 +110,6 @@
     margin-top: auto;
     margin-bottom: auto;
 }
-
 .Hot-deal-content p {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
@@ -81,40 +117,32 @@
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
-    ;
 }
-
 .Hot-deal-content h2 {
     color: #272727;
     font-family: Lato;
     font-size: 40px;
     font-weight: 800;
 }
-
 .off-color {
     color: #E55473;
-    ;
 }
-
-/* insta banner style here */
+                /* insta banner style here */
 .insta-container {
     width: 1920px;
     height: 4867px;
     color: white;
 }
-
 .insta-element {
     text-align: center;
     padding-top: 40px;
     margin-bottom: 35px;
 }
-
 .photo-gallery {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-
 .insta-element h2 {
     color: #272727;
     font-size: 40px;
@@ -122,7 +150,6 @@
     padding-bottom: 5px;
     font-family: Lato;
 }
-
 .insta-element p {
     color: rgba(39, 39, 39, 0.60);
     font-size: 18px;
@@ -130,8 +157,7 @@
     line-height: 30px;
     font-family: Lato;
 }
-
-/* latest deals banner styles */
+                /* latest deals banner styles */
 
 .latest-deals-container {
     background-image: url(Images/Rectangle\ 9.png);
@@ -143,15 +169,10 @@
     margin-top: 25px;
     border: none;
     border-radius: 10px;
-    
 }
-
 .latest-deal-element {
     text-align: center;
-
-    
 }
-
 .latest-deal-element h3 {
     color: #272727;
     font-family: Lato;
@@ -168,13 +189,11 @@
     line-height: 30px;
     padding: 5px;
 }
-
 .mail-subscribe-button {
     display: flex;
     justify-content: center;
     gap: 10px;
 }
-
 .mail-box input {
     width: 100%;
     height: 45px;
@@ -184,7 +203,6 @@
     border: none;
     box-sizing: border-box;
 }
-
 .btn-shop button {
     padding: 15px 20px;
     border-radius: 8px;
@@ -192,7 +210,7 @@
     color: white;
     background: #E55473;
 }
-/* form start here */
+                /* form start here (Bonus part)*/
 .become-member-container{
     width: 50vh;
     margin-top: 25px;
