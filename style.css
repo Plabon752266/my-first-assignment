@@ -61,6 +61,7 @@
     display: flex;
     justify-content: center;
     gap: 30px;
+    padding: 35px;
 }
 
 .Hot-deal-content {
@@ -121,11 +122,71 @@
     padding-bottom: 5px;
     font-family: Lato;
 }
-.insta-element p{
+
+.insta-element p {
     color: rgba(39, 39, 39, 0.60);
-font-size: 18px;
-font-weight: 400;
-line-height: 30px;
-font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    font-family: Lato;
 }
 
+/* latest deals banner styles */
+
+.latest-deals-container {
+    background-image: url(Images/Rectangle\ 9.png);
+    padding: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1400px;
+    height: 300px;
+    margin-top: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.latest-deal-element {
+    text-align: center;
+}
+
+.latest-deal-element h3 {
+    color: #272727;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.latest-deal-element p {
+    color: rgba(39, 39, 39, 0.60);
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.mail-subscribe-button {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.mail-box input {
+    width: 40%;
+    background-color: white;
+    padding: 14px 20px;
+    border-radius: 4px;
+    border: none;
+    box-sizing: border-box;
+}
+.btn-shop button{
+    padding: 15px 20px;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    background: #E55473;
+}
+
+/* footer section */
+footer{
+    
+}
